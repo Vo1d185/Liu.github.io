@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Trivia | My Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="hoverable">
+      <h1>BMI Calculator</h1>
+    </header>
+
+    <nav class="hoverable">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="trivia.html">Trivia</a>
+    </nav>
+
+    <aside class="left hoverable">
+      <h3>Useful Links</h3>
+      <ul>
+        <li><a href="https://healthline.com/" target="_blank">HealthLine</a></li>
+        <li><a href="https://who.int/" target="_blank">WHO</a></li>
+      </ul>
+    </aside>
+
+    <main class="content hoverable">
+      <h2>Enter Your Height & Weight</h2>
+      <form id="bmi-form">
+        <label>
+          Height (cm):
+          <input type="number" id="height" required />
+        </label><br/><br/>
+        <label>
+          Weight (kg):
+          <input type="number" id="weight" required />
+        </label><br/><br/>
+        <button type="submit">Calculate BMI</button>
+      </form>
+      <p id="result"></p>
+    </main>
+
+    <aside class="right hoverable">
+      <h3>Contact Me</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </form>
+    </aside>
+
+    <footer class="hoverable">
+      Created on 2025‑07‑20 |
+      <a href="https://github.com/Vo1dLiu" target="_blank">GitHub</a> |
+      <a href="https://twitter.com/Vo1dLiu" target="_blank">Twitter</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
